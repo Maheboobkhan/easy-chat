@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.join-main-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.join-container{
+    width: 35%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+}
+
+input[value="sendcolor"]{
+    color: red;
+}
+
+.join-input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin: 20px 5px;
+    font-size: 25px;
+    color: rgb(175, 104, 104);
+}
+
+.join-input:focus{
+    box-shadow: 3px 3px 10px white;
+}
+
+.join-btn{
+    width: 100%;
+    padding: 10px;
+    margin: 20px 5px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 25px;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+}
+
+.join-btn:hover{
+    background-color: white;
+    color: crimson;
+    font-weight: bold;
+}
+
+@media only screen and (max-width:800px){
+    .join-container{
+        width: 90%;
+    }
+}

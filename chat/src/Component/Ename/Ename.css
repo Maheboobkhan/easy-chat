@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ename-main-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ename-container{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.ename-cross{
+    margin-left: auto;
+    font-size: 21px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: crimson;
+    color: white;
+    border-radius: 50%;
+}
+
+.ename-cross:hover{
+    background-color: rgb(245, 70, 105);
+    color: white;
+}
+
+.error{
+    color: red;
+    margin: 0px 20px 20px 20px;
+    font-size: 50px;
+}
+
+.ename-message{
+    color: black;
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 480px){
+    .ename-container{
+        width: 100%;
+    }
+}
